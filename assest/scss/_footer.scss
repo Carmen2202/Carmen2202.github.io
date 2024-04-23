@@ -1,0 +1,15 @@
+//main: main.scss
+
+.footer{
+    background-color: $tertiary-color;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+   
+}
+.copyright{
+    color: #FFE4D6;
+    margin-top: 10px;
+}
