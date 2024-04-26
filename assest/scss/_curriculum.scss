@@ -114,6 +114,12 @@
 .language{
     padding: 20px;
     margin-top: 10px;
+    list-style: none;
+    
+   li{
+        list-style: none;
+    }
+   
 
     .percent{
         position: relative;
