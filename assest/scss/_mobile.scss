@@ -5,7 +5,7 @@
         min-height: 100vh;
         
     }
-
+    //Home-main content
     .home-content{
         justify-content: center;
         align-items: center;
@@ -44,6 +44,7 @@
         border: 5px solid #D988B9 ;
     }
     
+    //Home-Skills
     .skills-container{
         display: inline;
         justify-content: center;
@@ -74,7 +75,8 @@
             width: 45px;
         }
     }
-
+    
+    //Home-contact
     .con-title{
         h2{
             margin-top: 40px;
@@ -92,13 +94,13 @@
     }
 
 
-    
+    //Footer
     .footer{
         position:relative;
         margin-top: 20px;
     }
 
-    
+    //Curriculum
     .container{
        margin: 0;
         grid-template-columns: repeat(1,1fr);

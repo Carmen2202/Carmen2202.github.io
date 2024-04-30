@@ -13,19 +13,20 @@
 
     .left{
         position: relative;
-        background-color: #D988B9;
+        background-color: $cont-left;
         padding: 40px;
         
     }
 
     .right{
         position: relative;
-        background-color: $white;
+        background-color: $cont-right;
         padding: 40px;
     }
 
 }
 
+//Left-container
 .profile-text{
     position: relative;
     display: flex;
@@ -135,12 +136,13 @@
             top: 0;
             left: 0;
             height: 100%;
-            background-color: black;
+            background-color: $div-backg;
 
         }
     }
 }
 
+//Right-container
 .about{
     margin-bottom:50px ;
     
