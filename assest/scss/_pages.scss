@@ -1,7 +1,17 @@
 //main: main.scss
 
+//Navbar
+#navbarNavAltMarkup{
+    .nav-link{
+        color: black;
+    }
+    a:hover{
+        background-color: #B0578D;
+        color: white;
+    }
+}
 
-
+//Home-main content
 .home-content{
     display: flex;
     justify-content: center;
@@ -14,7 +24,7 @@
     width: 700px;
     margin-right: 20px;
     padding-right: 20px;
-    font-family: 'roboto',sans-serif;
+    
 
     h1{
         font-family: "Libre Baskerville", serif;
@@ -42,6 +52,7 @@
     border-radius: 20%;
 }
 
+//Home- skills
 .skills-container{
     margin: 55px 200px 58px 200px;
     padding: 9px;
@@ -71,6 +82,7 @@
     font-size: 2.5em;
 }
 
+//Portfolio- Card
 .card-container{
     display: flex;
     justify-content: center;
@@ -82,8 +94,8 @@
 
 .card{
     width: 325px;
-    background-color:#FACBEA;
-    border: 2px solid #b0578d;
+    background-color:$primary-card;
+    border: 2px solid $border-card;
     margin: 20px;
     overflow: hidden;
 
@@ -123,5 +135,18 @@ a.btn:hover{
     color: rgba(149, 15, 149, 0.372);
 }
 
+//Footer
 
+.footer{
+    background-color: $tertiary-color;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+   
+}
+.copyright {
+    margin-top: 10px;
+}
 
